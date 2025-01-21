@@ -66,7 +66,8 @@ class PromotedStudent {
 
  @Override
  public String toString() {
-     return "PromotedStudent [RollNumber=" + rollNumber + ", SubjectCode=" + subjectCode + ", SubjectName=" + subjectName + "]";
+     return "PromotedStudent [RollNumber=" + rollNumber + ", SubjectCode=" 
+      + subjectCode + ", SubjectName=" + subjectName + "]";
  }
 }
 
