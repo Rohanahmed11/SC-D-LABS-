@@ -1,5 +1,4 @@
 package task;
-
 final class FailedStudent {
  private final int rollNumber;
  private final String subjectCode;
@@ -25,7 +24,8 @@ final class FailedStudent {
 
  @Override
  public String toString() {
-     return "FailedStudent [RollNumber=" + rollNumber + ", SubjectCode=" + subjectCode + ", SubjectName=" + subjectName + "]";
+     return "FailedStudent [RollNumber=" + rollNumber + ", SubjectCode=" 
+      + subjectCode + ", SubjectName=" + subjectName + "]";
  }
 }
 
